@@ -1,0 +1,91 @@
+.about-me-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me-pointer {
+  flex: 0.15;
+  display: flex;
+  align-items: center;
+}
+
+.about-me-pointer>span {
+  background-color: gray;
+  color: white;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+}
+
+.about-me-wrapper {
+  flex: 1;
+  height: 80%;
+  display: flex;
+}
+
+.about-me-image,
+.about-me-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  box-sizing: border-box;
+  padding: 2.5rem;
+}
+
+.about-me-image {
+  align-items: center;
+  position: relative;
+}
+
+.about-me-image>img {
+  width: 60%;
+  height: 60%;
+  position: relative;
+  z-index: 2;
+  border: 5px solid white;
+}
+
+.about-me-text {
+  align-items: flex-start;
+  padding-left: 0;
+}
+
+.about-me-text>h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-me-text>ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.about-me-text>ul>li {
+  font-size: 0.8rem;
+  letter-spacing: 0.4px;
+}
+
+.about-me-text>ul>li>div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+
+.about-me-text>ul>li>div>span {
+  font-size: 0.8rem;
+}
+
+.about-picture-backdrop {
+  width: 16rem;
+  height: 19rem;
+  background-color: black;
+  position: absolute;
+  top: 16%;
+  left: 18%;
+  z-index: 1;
+}
