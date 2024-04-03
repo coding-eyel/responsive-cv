@@ -37,7 +37,8 @@
   box-sizing: border-box;
 }
 
-.work-block {
+.work-block,
+.work-block-reverse {
   background-color: #e7e7e7;
   flex: 0.5;
   width: 90%;
@@ -45,6 +46,10 @@
   box-shadow: 0px 3px black;
   display: flex;
   margin: 0 auto;
+}
+
+.work-block-reverse {
+  flex-direction: row-reverse;
 }
 
 .work-image,
