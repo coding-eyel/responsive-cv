@@ -1,6 +1,4 @@
-@media screen and (max-width: 480px) {
-
-
+@media screen and (max-width: 565px) {
   .intro-section {
     flex-direction: column-reverse;
     height: 45rem !important;
@@ -8,13 +6,14 @@
   }
 
   .about-me-section {
-    padding: 1.5rem;
-    gap: 2rem;
+    gap: 1rem;
+    padding-bottom: 1rem;
   }
 
   .about-me-wrapper {
     flex-direction: column;
     gap: 1rem;
+    padding: 1rem;
   }
 
   .about-me-pointer {
@@ -23,11 +22,13 @@
 
   .about-me-image {
     padding: 0px !important;
+    height: auto !important;
+    flex: 0.1 !important;
   }
 
   .about-me-image>img {
     width: 45% !important;
-    height: 60% !important;
+    height: 90% !important;
   }
 
   .about-me-text {
@@ -69,6 +70,10 @@
     flex-direction: column;
   }
 
+  .work-block-reverse {
+    flex-direction: column !important;
+  }
+
   .testemonials-section {
     padding: 1rem;
     gap: 1rem;
@@ -80,5 +85,96 @@
 
   .contact-section {
     padding: 3rem;
+  }
+
+  .footer-info>span {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 565px) and (max-width: 1000px) {
+  .intro-section {
+    padding: 1rem !important;
+  }
+
+  .about-me-section {
+    padding: 1rem !important;
+  }
+
+  .about-me-image>img {
+    width: 90% !important;
+  }
+
+  .skills-section {
+    padding: 1rem !important;
+    gap: 2rem;
+  }
+
+  .skills-icon-wrapper {
+    grid-template-columns: repeat(4, 1fr) !important;
+    grid-template-rows: auto !important;
+  }
+
+  .experience-block {
+    gap: 1.5rem;
+  }
+
+  .work-section {
+    padding: 1rem !important;
+  }
+
+  .testemonials-section {
+    gap: 1.5rem;
+  }
+
+  .contact-section {
+    padding: 1rem !important;
+    width: 100%;
+  }
+
+  .footer-info>span {
+    font-size: 0.7rem;
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .profile-picture-holder {
+    width: 50% !important;
+  }
+
+  .about-me-section {
+    padding: 1rem !important;
+  }
+
+  .about-me-image>img {
+    width: 30% !important;
+    height: 90% !important;
+  }
+
+  .skills-section {
+    gap: 2rem !important;
+  }
+
+  .skills-icon-wrapper {
+    gap: 1.5rem;
+  }
+
+  .work-section {
+    padding: 1.5rem !important;
+  }
+
+  .testemonials-section {
+    gap: 1rem;
+  }
+
+  .contact-section {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .footer-info>span {
+    font-size: 0.7rem;
+    padding: 1rem;
   }
 }
