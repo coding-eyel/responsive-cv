@@ -1,7 +1,14 @@
-@media screen and (max-width: 565px) {
+@media screen and (min-width: 350px) and (max-width: 565px) {
+  .web-button-wrapper {
+    display: none !important;
+  }
+
+  .mobile-button-wrapper {
+    display: flex !important;
+  }
+
   .intro-section {
     flex-direction: column-reverse;
-    height: 45rem !important;
     gap: 2rem;
   }
 
@@ -85,6 +92,7 @@
 
   .contact-section {
     padding: 3rem;
+    width: 100%;
   }
 
   .footer-info>span {
@@ -94,11 +102,28 @@
 
 @media screen and (min-width: 565px) and (max-width: 1000px) {
   .intro-section {
-    padding: 1rem !important;
+    flex-direction: column-reverse;
+    gap: 2rem;
   }
 
   .about-me-section {
     padding: 1rem !important;
+    gap: 0rem !important;
+  }
+
+
+  .about-me-wrapper {
+    flex-direction: column !important;
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+
+  .about-me-text {
+    padding: 2rem !important;
+  }
+
+  .about-me-pointer {
+    height: 1rem !important;
   }
 
   .about-me-image>img {
@@ -106,7 +131,7 @@
   }
 
   .skills-section {
-    padding: 1rem !important;
+    padding: 2rem !important;
     gap: 2rem;
   }
 
@@ -119,16 +144,30 @@
     gap: 1.5rem;
   }
 
+  .experience-pointer>p {
+    text-align: center !important;
+  }
+
   .work-section {
     padding: 1rem !important;
   }
 
+  .work-block,
+  .work-block-reverse {
+    flex-direction: column !important;
+  }
+
   .testemonials-section {
-    gap: 1.5rem;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .testemonials-blocks-wrapper {
+    flex-direction: column;
   }
 
   .contact-section {
-    padding: 1rem !important;
+    padding: 2rem !important;
     width: 100%;
   }
 

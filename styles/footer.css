@@ -13,8 +13,8 @@
   justify-content: space-between;
   box-sizing: border-box;
   padding-top: 1rem;
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .header-name>span {
@@ -27,7 +27,12 @@
   gap: 1rem;
 }
 
-.header-buttons>button {
+.web-button-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.header-buttons>.web-button-wrapper>button {
   background-color: transparent;
   color: white;
   border: none;
@@ -39,4 +44,16 @@
   width: 20px;
   height: 20px;
   background-image: url("/icons/sun-svgrepo-com.svg");
+}
+
+.menubar {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  background-image: url("/icons/menu-svgrepo-com.svg");
+}
+
+.mobile-button-wrapper {
+  display: none;
 }
