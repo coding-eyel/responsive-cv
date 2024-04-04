@@ -17,7 +17,8 @@ body {
 .site-wrapper {
   height: auto;
   width: auto;
-  background-color: #e7e7e7;
+  background-color: #111827;
+  color: white;
   overflow-y: auto;
   overflow-x: hidden;
   display: flex;
@@ -36,5 +37,6 @@ body {
 .contact-section,
 .intro-section,
 .header-navbar {
-  background-color: #FFFFFF;
+  background-color: #030712;
+  color: white;
 }

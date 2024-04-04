@@ -7,11 +7,14 @@
 }
 
 .header-navbar {
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-  padding: 1.5rem;
+  padding-top: 1.5rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .header-name>span {
@@ -26,7 +29,14 @@
 
 .header-buttons>button {
   background-color: transparent;
+  color: white;
   border: none;
   cursor: pointer;
   font-weight: bold;
+}
+
+.light-dark-mode {
+  width: 20px;
+  height: 20px;
+  background-image: url("/icons/sun-svgrepo-com.svg");
 }

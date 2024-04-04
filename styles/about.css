@@ -5,6 +5,8 @@
   justify-content: center;
   height: auto;
   width: 100%;
+  box-sizing: border-box;
+  gap: 2rem;
 }
 
 .about-me-pointer {
@@ -16,8 +18,8 @@
 .about-me-pointer>span {
   width: 5rem;
   text-align: center;
-  background-color: white;
-  color: black;
+  background-color: #374151;
+  color: white;
   box-sizing: border-box;
   padding: 0.3rem;
   border-radius: 1rem;
@@ -26,7 +28,7 @@
 
 .about-me-wrapper {
   flex: 1;
-  height: 80%;
+  height: 50%;
   display: flex;
 }
 
@@ -34,26 +36,27 @@
 .about-me-text {
   display: flex;
   flex-direction: column;
-  flex: 1;
   box-sizing: border-box;
-  padding: 2.5rem;
 }
 
 .about-me-image {
+  flex: 1;
   align-items: center;
-  position: relative;
+  justify-content: flex-start;
 }
 
 .about-me-image>img {
-  width: 60%;
-  height: 60%;
+  height: auto !important;
+  width: 45% !important;
   z-index: 2;
-  border: 5px solid white;
 }
 
 .about-me-text {
   align-items: flex-start;
+  padding: 5rem;
   padding-left: 0;
+  padding-top: 0;
+  flex: 1;
 }
 
 .about-me-text>h1 {
