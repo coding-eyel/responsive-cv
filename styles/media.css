@@ -1,4 +1,4 @@
-@media screen and (min-width: 350px) and (max-width: 565px) {
+@media screen and (min-width: 250px) and (max-width: 565px) {
   .web-button-wrapper {
     display: none !important;
   }
@@ -201,6 +201,7 @@
 
   .work-section {
     padding: 1.5rem !important;
+    width: 100%;
   }
 
   .testemonials-section {

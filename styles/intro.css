@@ -98,7 +98,6 @@
   height: 15rem;
   position: relative;
   z-index: 2;
-  box-shadow: 1.5rem 1.5rem darkgrey;
 }
 
 .profile-picture-holder>img {
